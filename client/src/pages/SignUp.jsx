@@ -55,7 +55,7 @@ export default function SignUp() {
       <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
         <input
           type='text'
-          placeholder='Hearken, what be thy name? (Choose your username lol)'
+          placeholder='Hearken, what be thy name?'
           className='border p-3 rounded-lg'
           id='username'
           onChange={handleChange}
@@ -69,7 +69,7 @@ export default function SignUp() {
         />
         <input
           type='password'
-          placeholder="Don't forget your password just like you don't forget your ex :)"
+          placeholder="Don't forget your password"
           className='border p-3 rounded-lg'
           id='password'
           onChange={handleChange}
